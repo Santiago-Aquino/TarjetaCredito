@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tarjeta de credito</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="containerTarjeta">
+            <img src="./img/chip.jpg" alt="chip de una tarjeta de credito">
+            <span class="numero">### ### ### ###</span>
+            <div id="containerInfo">
+                <div class="titular">
+                    <span>Titular:</span>
+                    <span class="spanNombre">Nombre titular</span>
+                </div>
+                <div class="vencimiento">
+                    <span>Vencimiento:</span>
+                    <div class="mesAnio">
+                        <span class="spanMes">MM</span>
+                        <span class="spanAnio">AA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form">
+            <label for="">Numero de tarjeta</label>
+            <input type="text" id="inputNumero" placeholder="Numero de la tarjeta">
+            <label for="">Titular</label>
+            <input type="text" id="inputTitular" placeholder="Nombre del titular">
+            <div class="containerSelect">
+                <select name="" id="selectMes">
+                    <option value=""> Mes</option>
+                </select>
+                <select name="" id="selectAnio">
+                    <option value=""> Año</option>
+                </select>
+            </div>
+            <button type="submit" id="boton">Enviar</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
