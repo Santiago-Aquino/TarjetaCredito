@@ -89,7 +89,7 @@ boton.addEventListener('click', (e) => {
                 let obj = recuperarStorage();
                 Swal.fire({
                     title: obj.Titular,
-                    text: `Le confirmamos que su tarjeta a sido registrada con exito!!`,
+                    text: `Le confirmamos que su tarjeta ha sido registrada con exito!!`,
                     icon: 'success',
                     confirmButtonColor: 'firebrick',
                     confirmButtonText: 'Aceptar'
